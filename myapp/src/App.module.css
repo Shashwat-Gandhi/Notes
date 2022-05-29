@@ -1,0 +1,12 @@
+h1 {
+    color:white;
+    text-align: center;
+}
+body {
+    background-color: green;
+}
+.gridNotes {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: orange;
+}
