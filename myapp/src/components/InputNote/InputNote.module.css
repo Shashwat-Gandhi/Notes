@@ -1,0 +1,24 @@
+.heading > input {
+    border : none;
+    margin: 1px;
+    
+}
+
+.heading > input:focus {
+    outline : 2px solid grey;
+}
+.content > input {
+    border: none;
+    overflow-y: visible;
+    overflow-x: visible;
+}
+.content > input:focus {
+    outline: olive;
+}
+.content > textarea {
+    resize: none;
+    height: 100px;
+}
+.content > textarea:focus {
+    outline: 2px solid grey;
+}

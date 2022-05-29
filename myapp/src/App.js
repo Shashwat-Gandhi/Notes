@@ -1,6 +1,8 @@
 import Note from './components/Note/Note';
-import styles from './App.module.css';
+import AddNote from './components/AddNote/AddNote';
 
+import styles from './App.module.css';
+import InputNote from './components/InputNote/InputNote';
 function App() {
   return (
     <div className="App">
@@ -12,9 +14,8 @@ function App() {
         <Note heading="12.2.2003" content="Something else"/>
         <Note heading="14.2.2003" content="Never ever"/>
         <Note heading="17.2.2003" content="whatever it is"/>
-        <div className="nothing">
-          <button>Add</button>
-        </div>
+        <AddNote/>
+        <InputNote/>
       </div>
     </div>
   );
