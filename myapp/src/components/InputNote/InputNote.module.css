@@ -1,9 +1,14 @@
 .heading > input {
     border : none;
     margin: 1px;
-    
+    margin-top:0;
 }
-
+.heading {
+    padding: 0;
+}
+.note {
+    margin-top:0;   
+}
 .heading > input:focus {
     outline : 2px solid grey;
 }
@@ -17,7 +22,8 @@
 }
 .content > textarea {
     resize: none;
-    height: 100px;
+    height: 90px;
+    width: 90%;
 }
 .content > textarea:focus {
     outline: 2px solid grey;

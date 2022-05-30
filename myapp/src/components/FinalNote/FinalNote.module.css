@@ -1,0 +1,13 @@
+.editButton {
+    background-color: rgb(19, 142, 224);
+    border-bottom: none;
+}
+.deleteButton {
+    background-color: red;
+    color: yellow;
+    border-bottom: none;
+}
+.confirmButton {
+    background-color: rgb(19, 142, 224);
+    border-bottom: none;
+}

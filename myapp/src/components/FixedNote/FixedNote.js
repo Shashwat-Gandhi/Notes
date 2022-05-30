@@ -1,9 +1,13 @@
 import { useEffect, useState } from 'react';
+import {useSelector, useDispatch} from 'react-redux';
+import { changeState } from '../../redux/reducers/noteReducer';
 
-import styles from './Note.module.css';
+import styles from './FixedNote.module.css';
 
-const Note = (props) => {
+const FixedNote = (props) => {
     const [heading, setHeading] = useState("");
+    const noteState = useSelector((state) => state);
+    const dispatch = useDispatch();
 
     useEffect(() => {
         setHeading(props.heading);
@@ -14,6 +18,7 @@ const Note = (props) => {
                 {props.heading}
             </div>
             <hr/>
+            
             <div className={styles.content}>
                 {props.content}
             </div>
@@ -22,4 +27,4 @@ const Note = (props) => {
 }
 
 
-export default Note;
+export default FixedNote;

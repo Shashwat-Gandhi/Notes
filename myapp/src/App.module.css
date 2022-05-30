@@ -8,5 +8,5 @@ body {
 .gridNotes {
     display: grid;
     grid-template-columns: auto auto auto;
-    background-color: orange;
+    background-color: gren;
 }
